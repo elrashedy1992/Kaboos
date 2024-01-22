@@ -34,7 +34,7 @@ read -p "Do you want to use proxychains during the scanning process? (y/n) " pro
 if [ "$proxy" == "y" ] || [ "$proxy" == "Y" ]
 then
     # Activate the tor service with proxychains
-    #tor
+    #sudo service tor start
     #echo "Tor service activated with proxychains"
     # Display the available scanning commands
     echo "Choose one of the following scanning commands:"
