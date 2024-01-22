@@ -20,5 +20,17 @@ gem install lolcat
 apt install tor
 apt install proxychains-ng 
 git clone https://github.com/elrashedy1992/Kaboos.git 
+cd Kaboos
 chmod +x kaboos.sh 
+./kaboos.sh</code></pre>
+
+install on linux
+
+<pre><code>
+sudo apt update
+sudo apt upgrade
+sudo apt install proxychains-ng
+git clone https://github.com/elrashedy1992/Kaboos.git
+cd Kaboos
+chmod 777 kaboos.sh
 ./kaboos.sh</code></pre>
